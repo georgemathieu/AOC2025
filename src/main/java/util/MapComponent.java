@@ -8,6 +8,7 @@ import java.util.*;
  * List<String> lines = Files.readAllLines(inputPath);
  * mc = new MapComponent(lines.get(0).length(), lines.size());
  * char[][] chars = mc.asChars(lines);
+ * Used with Coordinate(x, y) and chars[y][x].
  *
  * @param nbColumns the number of columns
  * @param nbRows the number of rows
